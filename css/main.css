@@ -1,0 +1,223 @@
+/* стили для index.html */
+
+/*........................Герой ........................*/
+.hero {
+  text-align: center;
+  background-color: var(--background-fotter);
+  max-width: 1600px;
+  padding: 200px 0;
+}
+
+.hero-title {
+  color: var(--primari-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primari-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.06em;
+}
+/*....................... Послуги ........................*/
+
+.services {
+  padding-top: 94px;
+}
+.services-box {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.services-content {
+  width: 270px;
+  letter-spacing: 0.03em;
+  margin-right: 30px;
+}
+.services-content:last-child {
+  margin-right: 0;
+}
+.services-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.services-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* letter-spacing: 0.03em; */
+  color: var(--title-text-color);
+  margin: 0;
+}
+
+/* ..................Чем мы занимаемся ....................*/
+.description {
+  padding-top: 94px;
+}
+.description-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
+}
+.description-box {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*................... команда .......................*/
+.command {
+  background-color: var(--button-background-color);
+  padding: 94px 0;
+}
+.command-box {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.command-content-one {
+  background-color: var(--primari-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 0 30px 0;
+}
+.command-content-two {
+  background-color: var(--primari-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 0 30px 0;
+}
+.command-content-three {
+  background-color: var(--primari-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 0 30px 0;
+}
+.command-content-four {
+  background-color: var(--primari-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 0 30px 0;
+}
+.command-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin: 0 0 10px 0;
+}
+.command-list {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  padding: 0;
+  margin: 0;
+}
+
+/*..................... Стили для portfolio.html.................... */
+
+/* .......................навигация поиска...................... */
+.portfolio {
+  padding: 94px 0 94px 0;
+}
+.button-nav {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn-title:not(:last-child) {
+  margin-right: 8px;
+}
+.button-nav-title {
+  background-color: var(--button-background-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  font-family: inherit;
+  padding: 6px 22px;
+}
+.button-nav-title:hover,
+.button-nav-title:focus {
+  background-color: var(--accent-color);
+  color: var(--primari-white-color);
+}
+.subtitle-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subtitle-box-small {
+  margin: 0 30px 30px 0;
+  /* width: 370px; */
+}
+
+.subtitle-box-small:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.subtitle-box-small:nth-child(1n + 7) {
+  margin-bottom: 0;
+}
+.subtitle-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.subtitle-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  padding-top: 4px;
+  margin: 0;
+}
+.subtitle-content {
+  padding: 20px 0 24px 20px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+.subtitle-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
