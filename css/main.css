@@ -199,19 +199,21 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin: 0 0 4px 0;
+  padding: 0;
 }
 .subtitle-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-top: 4px;
   margin: 0;
+  padding: 0;
 }
 .subtitle-content {
-  padding: 20px 0 24px 20px;
+  padding: 20px 20px 24px 20px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;

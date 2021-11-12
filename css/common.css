@@ -73,22 +73,21 @@ a {
   line-height: 1.19;
   margin: 0;
 }
+.logo-header {
+  margin-right: 94px;
+}
 
 .logo-web {
   color: var(--accent-color);
 }
 .logo-studio {
   color: var(--secondary-text-color);
-  margin-right: 94px;
 }
 .site-nav {
   display: flex;
 }
 .site-item:not(:last-child) {
   margin-right: 50px;
-}
-.site-item {
-  display: flex;
 }
 .header-contact {
   display: flex;
@@ -135,19 +134,23 @@ a {
 }
 
 .address-list {
-  font-style: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin: 20px 0 9px 0;
+  margin: 20px 0 0 0;
 }
 .address-list:last-child {
   margin-bottom: 0;
 }
-.address-list p {
+.fotter-content {
+  margin: 0 0 9px 0;
   color: var(--primari-white-color);
-  margin: 0;
 }
 .address-list a {
   color: var(--address-color);
+}
+
+.fotter-nav:not(last-child) {
+  margin-bottom: 9px;
 }
