@@ -123,11 +123,9 @@ a {
 
 /*...............Fotter................. */
 
-.fotter-box {
-  padding: 60px 0;
-}
 .fotter {
   background-color: var(--background-fotter);
+  padding: 60px 0;
 }
 .fotter-studio {
   color: var(--primari-white-color);
@@ -151,6 +149,6 @@ a {
   color: var(--address-color);
 }
 
-.fotter-nav:not(last-child) {
+.fotter-nav:not(:last-child) {
   margin-bottom: 9px;
 }
