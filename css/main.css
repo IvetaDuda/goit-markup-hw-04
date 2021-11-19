@@ -5,7 +5,15 @@
   text-align: center;
   background-color: var(--background-fotter);
   max-width: 1600px;
+  height: 600px;
   padding: 200px 0;
+  margin: 0 auto;
+  outline: 1px solid #000;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/background-for-hero-1.jpg);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
 }
 
 .hero-title {
@@ -67,7 +75,23 @@
   color: var(--title-text-color);
   margin: 0;
 }
+/* icons */
+.icon-services {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 0;
+}
 
+.icon-services-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* ..................Чем мы занимаемся ....................*/
 .description {
   padding-top: 94px;
@@ -97,34 +121,14 @@
   display: flex;
   justify-content: space-between;
 }
-.command-content-one {
+.command-content {
   background-color: var(--primari-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding: 30px 0 30px 0;
+  padding-bottom: 30px;
 }
-.command-content-two {
-  background-color: var(--primari-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  padding: 30px 0 30px 0;
-}
-.command-content-three {
-  background-color: var(--primari-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  padding: 30px 0 30px 0;
-}
-.command-content-four {
-  background-color: var(--primari-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  padding: 30px 0 30px 0;
-}
+
 .command-title {
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +136,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin: 0 0 10px 0;
+  margin: 30px 0 10px 0;
 }
 .command-list {
   font-size: 16px;
@@ -142,6 +146,40 @@
   color: var(--title-text-color);
   padding: 0;
   margin: 0;
+}
+/* Іконки */
+.icon-command {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 0;
+}
+.icon-logo {
+  width: 44px;
+  height: 44px;
+}
+.icon-logo + .icon-logo {
+  margin-left: 10px;
+}
+.icon-command-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+
+.icon-svg:hover,
+.icon-svg:focus {
+  fill: #fff;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
 
 /*..................... Стили для portfolio.html.................... */
@@ -178,6 +216,9 @@
 .button-nav-title:focus {
   background-color: var(--accent-color);
   color: var(--primari-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .subtitle-box {
   display: flex;
@@ -186,7 +227,15 @@
 
 .subtitle-box-small {
   margin: 0 30px 30px 0;
-  /* width: 370px; */
+}
+.subtitle-box-link {
+  display: block;
+}
+.subtitle-box-link:hover,
+.subtitle-box-small:focus {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .subtitle-box-small:nth-child(3n + 3) {
@@ -221,4 +270,53 @@
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+/* Постоянные клиенты */
+.clients {
+  padding: 94px 0;
+  text-align: center;
+}
+.clients-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 60px;
+}
+.icon-group {
+  fill: #afb1b8;
+}
+.clients-block + .clients-block {
+  margin-left: 30px;
+}
+.clients-block:hover,
+.clients-block:focus {
+  border: 1px solid var(--accent-color);
+}
+.icon-group:hover,
+.icon-group:focus {
+  fill: var(--accent-color);
 }
