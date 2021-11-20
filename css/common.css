@@ -121,6 +121,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -144,7 +146,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin: 20px 70px 0 0;
+  margin: 20px 0 0 0;
 }
 .address-list:last-child {
   margin-bottom: 0;
@@ -161,6 +163,9 @@ a {
 }
 .fotter-box {
   display: flex;
+}
+.fotter-site {
+  margin-left: 70px;
 }
 .fotter-site:not(:first-letter) {
   margin-left: 70px;
